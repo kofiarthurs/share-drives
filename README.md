@@ -2,7 +2,7 @@
 <h2>Description</h2>
 I will be creating share drives on Active Directory and mapping them to Jess (regular user).
 </br>
-In Server Manager we go to File and Storage Services and click on shares. We right click and selct New Share.
+In Server Manager, we go to File and Storage Services and click on shares. We right click and selct New Share.
 </br>
 </br>
 <img src="https://imgur.com/0qufYzo.png" height="80%" width="80%"/>
@@ -18,7 +18,7 @@ We name the share, gallery.
 <img src="https://imgur.com/1IEAWYM.png" height="80%" width="80%"/>
 <img src="https://imgur.com/BcLOFh9.png" height="80%" width="80%"/>
 
-We are going to give users in the HR security group access to the share. We select the Gallery Properties and the security tab and select Advanced.
+We are going to give users in the HR security group access to the share. We select the Gallery Properties, the security tab and Advanced.
 </br>
 
 <img src="https://imgur.com/Diyo58K.png" height="80%" width="80%"/>
@@ -28,7 +28,7 @@ In Advanced Security Settings for Gallery, we disable inheritance and convert th
 
 <img src="https://imgur.com/FqZhVfM.png" height="80%" width="80%"/>
 
-We remove User (EA\Users) which is default OU in Active Directory that houses many groups. WE only want HR security group to access and the administrators.
+We remove User (EA\Users) which is the default OU in Active Directory that houses many groups. We only want the HR security group and the administrators to have access.
 </br>
 
 <img src="https://imgur.com/sTakVuY.png" height="80%" width="80%"/>
@@ -49,17 +49,17 @@ We will search for the drive.
 
 <img src="https://imgur.com/fOy0ZFL.png" height="80%" width="80%"/>
 
-To map the drive, we will right click on Network.
+To map the drive, we will right click on Network and select Map network drive.
 </br>
 
 <img src="https://imgur.com/kn3q9QQ.png" height="80%" width="80%"/>
 
-We put in the path and make sure “Reconnect at sign-in” in selected, so that Jess's access is permanent.
+We put in the path and make sure “Reconnect at sign-in” in selected, so that Jess always has access.
 </br>
 
 <img src="https://imgur.com/ft9K2sM.png" height="80%" width="80%"/>
 
-Success
+Success.
 </br>
 
 <img src="https://imgur.com/VP9ECXv.png" height="80%" width="80%"/>
@@ -74,13 +74,13 @@ You go to AD Users and Computers, select the users properties, Profile, type in 
 
 
 <h2>Viewing Jess's share on The Command Line</h2>
-We type net use
+We type net use.
 </br>
 </br>
 <img src="https://imgur.com/BQnM6EF.png" height="80%" width="80%"/>
 
-<h2>Viewing Jess's share on REmote Registry</h2>
-We select File, Connect Netork Registry then add Desktop-2, which is the name on Jess's pc.
+<h2>Viewing Jess's share on Network Registry</h2>
+We select File, Connect Netork Registry then add Desktop-2, which is the name of Jess's pc.
 </br>
 </br>
 <img src="https://imgur.com/STBkdyO.png" height="80%" width="80%"/>
