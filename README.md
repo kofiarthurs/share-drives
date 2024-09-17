@@ -28,4 +28,10 @@ Success
 
 <h2>Using Active Directory to Map a Drive</h2>
 
-You got to ad user and computer, select the users properties, profile, type in the share path and apply.
+You go to AD Users and Computers, select the users properties, Profile, type in the share path and apply.
+
+<h2>Viewing Jess's share on The Command Line</h2>
+We type net use
+
+<h2>Viewing Jess's share on REmote Registry</h2>
+We select File, Connect Netork Registry then add Desktop-2, which is the name on Jess's pc.
