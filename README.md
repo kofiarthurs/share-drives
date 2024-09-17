@@ -76,13 +76,11 @@ You go to AD Users and Computers, select the users properties, Profile, type in 
 <h2>Viewing Jess's share on The Command Line</h2>
 We type net use
 </br>
-</br>
 
 <img src="https://imgur.com/BQnM6EF.png" height="80%" width="80%"/>
 
 <h2>Viewing Jess's share on REmote Registry</h2>
 We select File, Connect Netork Registry then add Desktop-2, which is the name on Jess's pc.
-</br>
 </br>
 
 <img src="https://imgur.com/STBkdyO.png" height="80%" width="80%"/>
