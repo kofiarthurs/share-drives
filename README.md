@@ -9,7 +9,7 @@ We are choosing SMB Share – Quick.
 <img src="https://imgur.com/Xr1zHbj.png" height="80%" width="80%"/>
 
 We name the share, gallery.
-<img src="https://imgur.com/jgHp8Sst.png" height="80%" width="80%"/>
+<img src="https://imgur.com/1IEAWYM.png" height="80%" width="80%"/>
 <img src="https://imgur.com/BcLOFh9.png" height="80%" width="80%"/>
 
 We are going to give users in the HR security group access to the share. We select the Gallery Properties and the security tab and select Advanced.
